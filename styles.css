@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+
+width: 1920px;
+height: 850px;
+flex-shrink: 0;
+
+}
+
+
+.banner-flower-image {
+    /* margin-left: 1045px; */
+    margin-top: 50px;
+    margin-right: 240px;
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+}
+
+
+
+.banner-header {
+    width: 708px;
+    height: 288px;
+    margin-left: 240px;
+    margin-top: 197px;
+
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 634px;
+    height: 90px;
+
+    margin-left: 240px;
+    margin-top: 50px;
+}
+
+.shop-now-button {
+
+    /* display: inline-flex; */
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 240px;
+    margin-top: 39px;
+
+    width: auto 177px;
+    height: auto 64px;
+
+    display: inline-flex;
+}
+
+
