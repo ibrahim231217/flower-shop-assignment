@@ -433,11 +433,184 @@
 .offer-deal {
     width: 1440px;
     height: 449px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+
+    margin-top: 128px;
+    border: 5px solid blueviolet;
 
     border-radius: 8px;
-
+    background-image: url(/Asset/Rectangle\ 9.png);
+     /* justify-content: center; */
     /* padding-top: 30px; */
     /* margin-top: 24px; */
+
+    /* align-items: center;
+    justify-content: center; */
+    margin-left: 240px;
+
+}
+
+.offer-deal-header {
+     margin-top: 122px;
+
+    /* width: 373px; */
+    /* height: 48px; */ 
+
+    color : #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.coupon-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    /* margin-top: 264px; */
+}
+
+.email-form{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+/* align-items: center; */
+/* justify-content: center; */
+
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* .SignUp-btn {
+    width: 155px;
+    height: 64px;
+    margin-left: 603px;
+    /* padding-bottom; */
+/* border-radius: 8px;  */
+/* background: #E55473; */
+/* border: none */
+
+.Subscribe-btn {
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+
+border-radius: 8px;
+background: #E55473;
+
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.email-&-button{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    gap: 16px;
+    /* padding-top: 48px; */
+}
+
+
+/* levi */
+
+.footer-item {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+
+.footer-content {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 128px;
+}
+
+.footer-title {
+    padding-top: 128px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 259px;
+    height: 58px;
+
+
+
+ /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    margin-left: 831px;
+
+}
+.shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-para {
+
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    /* max-width: 625px; */
+    /* height: 660px; */
+
+    text-align: center;
+    padding-top: 24px;
+}
+
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+
+    padding: 16px 19px;
+
+    max-width: 355px;
+    height: 19px;
+     
+
+    text-align: center;
+    margin-left: 760px;
 
 }
