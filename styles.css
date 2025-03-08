@@ -91,6 +91,9 @@
     display: flex;
     /* justify-content: center; */
     gap: 24px;
+
+    margin-top: 40px;
+    justify-content: center;
 }
 
 .flower-one {
@@ -165,6 +168,9 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-top: 178px;
+
+
 }
 
 .flower-item-title-description {
@@ -177,12 +183,19 @@
     font-weight: 400;
     line-height: 30px;
 
+    text-align: center;
+    justify-content: center;
+    margin-left: 370px;
+    /* margin-right: 663px; */
+    margin-top: 24px;
+    border: 2px solid blue;
+
 }
 
 
 
 
-.three-flower-para {
+.pink-flower-para {
     text-align: center;
     color: #272727;
     text-align: center;
@@ -198,6 +211,8 @@
     text-decoration-thickness: auto;
     text-underline-offset: auto;
     text-underline-position: from-font;
+
+    padding-top: 32px;
 }
 
 
@@ -206,37 +221,104 @@
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 
-    max-width: 1440px;
+    max-width:  1440px;
     height: 320px;
     /* flex-shrink: 0; */
 
-    margin: 240px 128px;
-    margin-left: 240px;
+    /* margin: 240px 128px; */
+    /* margin-left: 240px; */
+    margin-top: 195px;
+    border: 2px solid navy;
+
+    align-items: center;
+
+    display: flex;
 
 }
 
-.delivery-pic-and-para {
-    margin-top: 86px;
-    margin-bottom: 122px;
+.delivery-pic {
+  
+    /* margin-bottom: 122px; */
+    /* display: flex; */ 
 
-    margin-left: 175;
-    margin-right: 175;
+    /* margin-left: 165px; */
+    /* margin-right: 175; */
+
+    text-align: center;
+    padding-top: 20px; 
+    padding-left: 100px;
+    padding-bottom: 20px;
+   
 
     /* justify-content: center; */
+    /* row-gap: 20px;
+    gap: 10px; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
 }
 
+.delivery-para {
+
+
+    width: 372px;
+    height: 35px;
+    margin-left: 12px;
+    /* margin: 198px; */
+
+
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+
+    padding-top: 20px;
+    
+}
+
+
+/* .delivery-para-two{
+    width: 316px;
+    height: 35px;
+    margin-top: 198px;
+
+} */
+
+/* .delivery-para-three{
+    width: 202px;
+    height: 35px;
+    margin-top: 198px;
+
+} */
 .discount {
     /* max-width : 1922px;
      height: 620px; */
     /* flex-shrink: 0; */
+
+    margin-top: 128px;
 
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
     width: 1922px;
     height: 620px;
+    /* margin-top: 128px; */
+
+    display: flex;
+    align-items: center;
+
+    gap: 186px;
 }
 
+.discount-container {
+    /* display: flex; */
+
+    text-align: center;
+    padding-left: 395px;
+}
 
 .discount-header {
     color: #272727;
@@ -250,8 +332,8 @@
     max-width: 537px;
     height: 48px;
 
-    padding-top: 230px;
-    padding-left: 423px;
+    /* padding-top: 230px; */
+    /* padding-left: 423px; */
 }
 
 .off {
@@ -274,22 +356,88 @@
     font-weight: 400;
     line-height: 30px;
 
+
     padding-top: 24px;
-    padding-left: 395px;
-    padding-bottom: 258px;
+    /* padding-left: 395px; */
+    /* padding-bottom: 258px; */
 }
 
 .SignUp-btn {
     width: 155px;
     height: 64px;
-    margin-left: 603px;
+    /* margin-left: 603px; */
     /* padding-bottom; */
     border-radius: 8px;
-background: #E55473;
-border: none;
+    background: #E55473;
+    border: none;
+    margin-top: 24px;
 }
 
-.four-image-galary{
+.discount-section-image {
+
+    width: 318px;
+    height: 420px;
+
+    /* margin-top: 50px; */
+    /* margin-right: 129px; */
+    /* margin-left: 1175px; */
+    /* margin-bottom: 1px; */
+
+    border: 3px solid firebrick;
+    /* padding-bottom: 100px; */
+}
+
+
+.insta {
+    margin-top: 128px;
+    text-align: center;
+
+    color: #272727;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+}
+
+.social-section-para {
+
+    /* margin-top: 100px; */
+    /* max-width: 594px; */
+    /* justify-content: center; */
+    text-align: center;
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    /* margin-left: 663px; */
+}
+
+.four-image-galary {
     display: flex;
     justify-content: center;
+    gap: 24px;
+    padding-top: 48px;
+
+}
+
+.offer-deal {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+
+    /* padding-top: 30px; */
+    /* margin-top: 24px; */
+
 }
