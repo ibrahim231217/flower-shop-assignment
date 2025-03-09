@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0px;
     padding: 0px;
 }
@@ -7,25 +7,20 @@
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
-
     max-width: 100%;
     height: 850px;
     flex-shrink: 0;
 
     align-items: center;
 
-}
+} 
 
-
-.banner-flower-image {
+ .banner-flower-image {
 
     padding-top: 50px;
     max-width: 635px;
     height: 800px;
-
 }
-
-
 
 .banner-header {
     width: 708px;
@@ -39,7 +34,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-}
+} 
 
 .banner-paragraph {
     color: rgba(39, 39, 39, 0.60);
@@ -48,17 +43,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
-    width: 634px;
+   
+
+     width: 634px;
     height: 90px;
 
     margin-left: 240px;
     margin-top: 20px;
-}
+}  
 
-.shop-now-button {
-
-    /* display: inline-flex; */
+ .shop-now-button {
+    
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -73,24 +68,25 @@
     margin-left: 240px;
     margin-top: 39px;
 
-    width: auto 177px;
-    height: auto 64px;
+    width:  177px;
+    height:  64px;
 
     display: inline-flex;
 
     border: none;
-}
+} 
 
 
 .flower-item-section {
     margin-left: 240px;
     margin-right: 240px;
-}
+} 
 
-.flower-galary {
+ 
+ .flower-galary {
     display: flex;
-    /* justify-content: center; */
-    gap: 24px;
+     justify-content: center; 
+     gap: 24px;
 
     margin-top: 40px;
     justify-content: center;
@@ -102,9 +98,9 @@
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-}
+}  
 
-.flower-two {
+ .flower-two {
     max-width: 464px;
     height: 538px;
     flex-shrink: 0;
@@ -126,8 +122,9 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+ 
 
-.flower-one-image {
+ .flower-one-image {
     max-width: 310px;
     height: 428px;
     flex-shrink: 0;
@@ -135,9 +132,9 @@
     margin-top: 110px;
     margin-left: 76px;
     margin-right: 78px;
-}
+} 
 
-.flower-two-image {
+ .flower-two-image {
     max-width: 370px;
     height: 370px;
     flex-shrink: 0;
@@ -147,9 +144,9 @@
     margin-right: 47px;
     margin-bottom: 51px;
 
-}
+} 
 
-.flower-three-image {
+ .flower-three-image {
     max-width: 314px;
     height: 471px;
     flex-shrink: 0;
@@ -158,9 +155,9 @@
     margin-left: 75px;
     margin-right: 75px;
 
-}
+} 
 
-.flower-item-title {
+ .flower-item-title {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -171,7 +168,7 @@
     margin-top: 178px;
 
 
-}
+} 
 
 .flower-item-title-description {
     width: 594px;
@@ -185,18 +182,16 @@
 
     text-align: center;
     justify-content: center;
-    margin-left: 370px;
-    /* margin-right: 663px; */
-    margin-top: 24px;
-    border: 2px solid blue;
+
+    margin: auto; */
+    /* margin-left: 370px; */
+    /* margin-top: 24px; */
+   
 
 }
 
-
-
-
-.pink-flower-para {
-    text-align: center;
+ .pink-flower-para {
+  text-align: center;
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -204,8 +199,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
-    /* 145.833% */
-    text-decoration-line: underline;
+    
+     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: none;
     text-decoration-thickness: auto;
@@ -213,7 +208,7 @@
     text-underline-position: from-font;
 
     padding-top: 32px;
-}
+} 
 
 
 .sell-support {
@@ -223,50 +218,28 @@
 
     max-width:  1440px;
     height: 320px;
-    /* flex-shrink: 0; */
 
-    /* margin: 240px 128px; */
-    /* margin-left: 240px; */
     margin-top: 195px;
-    border: 2px solid navy;
-
     align-items: center;
-
     display: flex;
 
-}
+} 
 
 .delivery-pic {
-  
-    /* margin-bottom: 122px; */
-    /* display: flex; */ 
-
-    /* margin-left: 165px; */
-    /* margin-right: 175; */
-
+   
     text-align: center;
     padding-top: 20px; 
     padding-left: 100px;
     padding-bottom: 20px;
    
-
-    /* justify-content: center; */
-    /* row-gap: 20px;
-    gap: 10px; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-
 }
 
-.delivery-para {
+ .delivery-para {
 
 
     width: 372px;
     height: 35px;
     margin-left: 12px;
-    /* margin: 198px; */
-
-
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-family: Lato;
@@ -277,50 +250,36 @@
 
     padding-top: 20px;
     
-}
+} 
 
-
-/* .delivery-para-two{
-    width: 316px;
-    height: 35px;
-    margin-top: 198px;
-
-} */
-
-/* .delivery-para-three{
-    width: 202px;
-    height: 35px;
-    margin-top: 198px;
-
-} */
-.discount {
-    /* max-width : 1922px;
+ .discount {
+    max-width : 1922px;
      height: 620px; */
-    /* flex-shrink: 0; */
+     flex-shrink: 0;
 
-    margin-top: 128px;
+     margin-top: 128px;
 
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
-    width: 1922px;
+    width: 100%;
     height: 620px;
-    /* margin-top: 128px; */
+     margin-top: 128px; 
 
-    display: flex;
+     display: flex;
     align-items: center;
 
     gap: 186px;
-}
+} 
 
-.discount-container {
+ .discount-container {
     /* display: flex; */
 
-    text-align: center;
-    padding-left: 395px;
+     text-align: center;
+    padding-left: 395px; 
 }
 
-.discount-header {
+ .discount-header {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -328,13 +287,10 @@
     font-weight: 800;
     line-height: normal;
 
-
     max-width: 537px;
     height: 48px;
 
-    /* padding-top: 230px; */
-    /* padding-left: 423px; */
-}
+} 
 
 .off {
     color: #E55473;
@@ -343,7 +299,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-}
+} 
 
 .discount-para {
     max-width: 594px;
@@ -370,7 +326,10 @@
     border-radius: 8px;
     background: #E55473;
     border: none;
-    margin-top: 24px;
+    /* margin-top: 24px; */
+
+    display: block; 
+    margin: 24px auto;
 }
 
 .discount-section-image {
@@ -383,7 +342,7 @@
     /* margin-left: 1175px; */
     /* margin-bottom: 1px; */
 
-    border: 3px solid firebrick;
+    /* border: 3px solid firebrick; */
     /* padding-bottom: 100px; */
 }
 
@@ -433,29 +392,25 @@
 .offer-deal {
     width: 1440px;
     height: 449px;
-    /* flex-shrink: 0; */
 
-    margin-top: 128px;
-    border: 5px solid blueviolet;
+   
 
     border-radius: 8px;
     background-image: url(/Asset/Rectangle\ 9.png);
-     /* justify-content: center; */
-    /* padding-top: 30px; */
-    /* margin-top: 24px; */
-
-    /* align-items: center;
-    justify-content: center; */
-    margin-left: 240px;
-
+     
+   
+    margin: 128px 230px;
+    
 }
 
-.offer-deal-header {
-     margin-top: 122px;
+.offer-header-para{
+    padding-top: 122px;
+    
+text-align: end;
+}
 
-    /* width: 373px; */
-    /* height: 48px; */ 
 
+.offer-header {
     color : #272727;
     text-align: center;
     font-family: Lato;
@@ -463,6 +418,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+   
 }
 
 .coupon-para {
@@ -473,19 +429,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-
-    /* margin-top: 264px; */
 }
 
-.email-form{
+.e input[type="email"]{
     width: 700px;
 height: 64px;
 flex-shrink: 0;
 border-radius: 8px;
 background: #FFF;
-/* align-items: center; */
-/* justify-content: center; */
-
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-family: Lato;
@@ -493,16 +444,17 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
+border: 1px solid white;
 }
 
-/* .SignUp-btn {
-    width: 155px;
-    height: 64px;
-    margin-left: 603px;
-    /* padding-bottom; */
-/* border-radius: 8px;  */
-/* background: #E55473; */
-/* border: none */
+.e input{
+
+  margin-right: 20px;
+  margin-top: 48px;
+  margin-left: 287px;
+}
+
 
 .Subscribe-btn {
     width: 150px;
@@ -521,16 +473,6 @@ line-height: normal;
 }
 
 
-.email-&-button{
-    display: flex;
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    gap: 16px;
-    /* padding-top: 48px; */
-}
-
-
-/* levi */
 
 .footer-item {
     width: 1922px;
@@ -557,11 +499,7 @@ line-height: normal;
     max-width: 259px;
     height: 58px;
 
-
-
- /* align-items: center; */
     text-align: center;
-    /* justify-content: center; */
     margin-left: 831px;
 
 }
@@ -583,9 +521,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
-    /* max-width: 625px; */
-    /* height: 660px; */
+    
 
     text-align: center;
     padding-top: 24px;
@@ -614,3 +550,4 @@ line-height: normal;
     margin-left: 760px;
 
 }
+/* @media screen and (max-width:576px){  } */
