@@ -576,7 +576,6 @@
          /* margin-left: 80%; */
          margin: 0px auto;
 
-
      }
 
      .shop-now-button {
@@ -588,7 +587,6 @@
          background: transparent;
          padding: 0px;
          justify-content: center;
-         /* padding-bottom: 10px; */
      }
 
      .flower-item-title {
@@ -608,7 +606,6 @@
          */
          max-width: 200%;
          /* height: 100%; */
-        
      }
 
      .flower-galary {
@@ -633,145 +630,156 @@
          /* margin-left: 10%; */
 
      }
-     .delivery-pic{
-        max-width: 40%;
-        /* margin-left: 10px; */
-        /* margin-left: 10px; */
-        /* padding-left: 10px; */
-        justify-content: center;
-        align-items: center;
-        margin-left: 0%;
-        padding-right: 0px;
-        /* row-gap: 20%; */
-        /* padding-left: 25px; */
-        /* padding-right : 35px; */
-        padding: 10px 48px;
-      /* flex-direction: column; */
 
-        /* border: 1px solid navy; */
+     .delivery-pic {
+         max-width: 40%;
+         /* margin-left: 10px; */
+         /* margin-left: 10px; */
+         /* padding-left: 10px; */
+         justify-content: center;
+         align-items: center;
+         margin-left: 0%;
+         padding-right: 0px;
+         /* row-gap: 20%; */
+         /* padding-left: 25px; */
+         /* padding-right : 35px; */
+         padding: 10px 48px;
+         /* flex-direction: column; */
+
+         /* border: 1px solid navy; */
      }
+
      .delivery-para {
-        font-size: 14px;
-        max-width: 50%;
-        margin-left: 10%;
-        line-height: 15px;
-        text-align: center;
-      
+         font-size: 14px;
+         max-width: 50%;
+         margin-left: 10%;
+         line-height: 15px;
+         text-align: center;
+
      }
- }
+
 
  .discount {
-    margin-top: 120px;
-    max-width: 50%;
-    background-color: transparent;
-    flex-direction: column;
-   
+     margin-top: 120px;
+     max-width: 50%;
+     background-color: transparent;
+     flex-direction: column;
+
  }
 
  .discount-container {
-    text-align: center;
-    /* gap: 10px;     */
+     text-align: center;
+     /* gap: 10px;     */
  }
- .discount-header {
 
- }
+
  .discount-para {
-    padding-top: 220px;
-    /* max-width: 50%; */
-    line-height: 20px;
+     padding-top: 220px;
+     /* max-width: 50%; */
+     line-height: 20px;
 
  }
-.SignUp-btn{
-    margin-top: 135px;
-}
-.discount-section-image {
-    /* justify-content: center; */
-    /* margin-top: 122px; */
-    padding-left: 375px;
-    /* padding-bottom: 405px; */
-    /* gap: 10px;   */
-    /* align-items: center; */
-    /* height: 300px; */
-    /* padding-top: 1225px; */
-}
 
-.social-and-others
-{
-    margin-top: 650px;
-    text-align: center;
-    padding-left: 55px;
-    align-items: center;
-    justify-content: center;
-}
-
-.insta{
-    margin-top: 120px;
-}
-.social-section-para {
-    padding-top: 20px;
-    /* padding-left: 30px; */
-}
-
-.four-image-galary {
-    flex-direction: column;
-    padding-left: 55px;
-}
-
-.offer-deal{
-    margin-top: 200px;
-    max-width: 50% ;
-    /* padding-left: 40px; */
-
-}
-.e input{
-max-width: 70%;
-margin: 0px auto;
-border-radius: 8px;
-}
- .e input[type="email"]{
-   max-width: 70%;
-height: 64px;
-margin-left: 40px;
-
-border: 1px solid #ab9dff;
+ .SignUp-btn {
+     margin-top: 135px;
  }
 
- .Subscribe-btn{
-margin-top: 50px;
-margin-left: 70px;
-}
+ .discount-section-image {
+     /* justify-content: center; */
+     /* margin-top: 122px; */
+     padding-left: 375px;
+     /* padding-bottom: 405px; */
+     /* gap: 10px;   */
+     /* align-items: center; */
+     /* height: 300px; */
+     /* padding-top: 1225px; */
+ }
 
-.footer-item{
-    margin-top: 178px;
-    max-width: 112%;
-    margin: 0px auto;
-    text-align: center;
-    
-}
-.footer-content {
-    max-width: 50%;
-    margin: 0px auto;
+ .social-and-others {
+     margin-top: 650px;
+     text-align: center;
+     padding-left: 55px;
+     align-items: center;
+     justify-content: center;
+ }
 
-    text-align: center;
-   
-}
-.footer-title {
-   margin-left: 45px;
-   max-width: 50%;
-   margin: 0px auto;
-   text-align: center;
-}
-.footer-para{
+ .insta {
+     margin-top: 120px;
+ }
 
-  margin-left: 60px;
-  line-height: 20px
-}
-.copyright {
-    max-width: 50%;
-    margin: 0px auto;
+ .social-section-para {
+     padding-top: 20px;
+     /* padding-left: 30px; */
+ }
 
-    text-align: center;
-    padding-left: 80px;
-    /* justify-content: center;
+ .four-image-galary {
+     flex-direction: column;
+     padding-left: 55px;
+ }
+
+ .offer-deal {
+     margin-top: 200px;
+     max-width: 50%;
+     /* padding-left: 40px; */
+
+ }
+
+ .e input {
+     max-width: 70%;
+     margin: 0px auto;
+     border-radius: 8px;
+ }
+
+ .e input[type="email"] {
+     max-width: 70%;
+     height: 64px;
+     margin-left: 40px;
+
+     border: 1px solid #ab9dff;
+ }
+
+ .Subscribe-btn {
+     margin-top: 50px;
+     margin-left: 70px;
+ }
+
+ .footer-item {
+     margin-top: 178px;
+     max-width: 111%;
+     margin: 0px auto;
+     text-align: center;
+
+ }
+
+ .footer-content {
+     max-width: 50%;
+     margin: 0px auto;
+
+     text-align: center;
+
+ }
+
+ .footer-title {
+     margin-left: 45px;
+     max-width: 50%;
+     margin: 0px auto;
+     text-align: center;
+ }
+
+ .footer-para {
+
+     margin-left: 60px;
+     line-height: 20px
+ }
+
+ .copyright {
+     max-width: 50%;
+     margin: 0px auto;
+
+     text-align: center;
+     padding-left: 80px;
+     /* justify-content: center;
     align-items: center; */
+ }
+
 }
